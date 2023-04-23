@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul {
+  margin-right: 600px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  font-size: 20px;
+  height: 35px;
+  width: 130px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+.btn:hover i {
+  color: white;
+}
+.btn i {
+  font-size: 18px;
+  margin-left: 5px;
+  color: black;
+}
+
+.module,
+.header {
+  text-align: center;
+  background-color: #0f0e0e;
+  width: 100%;
+  height: 350px;
+  color: white;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header p {
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main {
+  width: 278px;
+  height: 450px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 100px;
+}
+.main h2 {
+  margin-top: 20px;
+}
+.main p {
+  margin-top: 20px;
+}
+.main button {
+  border: 1px solid;
+}
+
+img {
+  width: 278px;
+  border-radius: 6px;
+}
+
+.footer {
+  width: 100%;
+  height: 180px;
+  background-color: black;
+  margin-top: 100px;
+}
+.footer p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 90px;
+}
